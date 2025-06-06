@@ -31,41 +31,44 @@ Java Servlet ve JSP teknolojileri kullanılarak geliştirilmiş bu web uygulamas
 
 ## 📂 Proje Yapısı
 
+```
 KitapKosem/
-|--src/
-| |--main/
-| | | --java/
-| | | |--com/
-| | | | |--kitapkosem/
-| | | | | |--model/
-| | | | | | |--Book.java
-| | | | | |--servlet/
-| | | | | | |--AddBookServlet.java
-| | | | | | |--AddCommentServlet.java
-| | | | | | |--AddRatingServlet.java
-| | | | | | |--BookDetailServlet.java
-| | | | | | |--HomeServlet.java
-| | | | | | |--LoginServlet.java
-| | | | | | |--LogoutServlet.java
-| | | | | | |--RegisterServlet.java
-| | | | | |--test/
-| | | | | | |--TestConnection.java
-| | | | | |--utils/
-| | | | | | |--DButil.java
-| | | --webapp/
-| | | |--META-INF/
-| | | | |--MANIFEST.MF
-| | | |--WEB-INF/
-| | | | |--lib/
-| | | | | |--mysql-connector-j-9.3.0.jar
-| | | |--addBook.jsp
-| | | |--addComment.jsp
-| | | |--addRating.jsp
-| | | |--bookDetails.jsp
-| | | |--home.jsp
-| | | |--index.jsp
-| | | |--login.jsp
-| | | |--register.jsp
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── kitapkosem/
+│       │           ├── model/
+│       │           │   └── Book.java
+│       │           ├── servlet/
+│       │           │   ├── AddBookServlet.java
+│       │           │   ├── AddCommentServlet.java
+│       │           │   ├── AddRatingServlet.java
+│       │           │   ├── BookDetailServlet.java
+│       │           │   ├── HomeServlet.java
+│       │           │   ├── LoginServlet.java
+│       │           │   ├── LogoutServlet.java
+│       │           │   └── RegisterServlet.java
+│       │           ├── test/
+│       │           │   └── TestConnection.java
+│       │           └── utils/
+│       │               └── DButil.java
+│       └── webapp/
+│           ├── META-INF/
+│           │   └── MANIFEST.MF
+│           ├── WEB-INF/
+│           │   └── lib/
+│           │       └── mysql-connector-j-9.3.0.jar
+│           ├── addBook.jsp
+│           ├── addComment.jsp
+│           ├── addRating.jsp
+│           ├── bookDetails.jsp
+│           ├── home.jsp
+│           ├── index.jsp
+│           ├── login.jsp
+│           └── register.jsp
+```
+
 
 
 ## 🚀 Kurulum ve Çalıştırma
